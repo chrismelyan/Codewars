@@ -16,7 +16,7 @@ Math.round = function(number) {
   };
   
   Math.ceil = function(number) {
-    if(number === parseInt) {
+    if(number === parseInt(number)) {
       return number;
     } else {
       return parseInt(number) + 1
